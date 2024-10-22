@@ -1,0 +1,10 @@
+execute:
+    how: tmt
+discover:
+    how: fmf
+prepare+:
+    - name: install latest copr build
+      how: install
+      copr: '@rhel-lightspeed/shellai'
+      package: shellai
+      missing: fail

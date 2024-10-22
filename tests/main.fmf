@@ -1,0 +1,3 @@
+/smoke:
+  framework: shell
+  test: shellai -h
