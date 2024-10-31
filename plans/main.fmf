@@ -7,6 +7,6 @@ provision:
 prepare+:
     - name: install latest copr build
       how: install
-      copr: '@rhel-lightspeed/shellai'
-      package: shellai
+      copr: '@rhel-lightspeed/command-line-assistant'
+      package: command-line-assistant
       missing: fail
