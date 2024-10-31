@@ -1,4 +1,0 @@
-/sanity:
-  discover+:
-    filter+:
-      'tag: smoke'

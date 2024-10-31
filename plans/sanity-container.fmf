@@ -1,0 +1,8 @@
+provision:
+  how: container
+  image: $IMAGE
+
+/smoke:
+  discover+:
+    filter+:
+      'tag: smoke'
