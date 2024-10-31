@@ -1,3 +1,4 @@
 /smoke:
   framework: shell
-  test: shellai -h
+  test: c -h
+  tag+: smoke
