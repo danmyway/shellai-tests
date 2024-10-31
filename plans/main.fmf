@@ -3,6 +3,7 @@ execute:
 discover:
     how: fmf
 provision:
+    how: container
     image: registry.access.redhat.com/rhel9:latest
 prepare+:
     - name: install latest copr build
